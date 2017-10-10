@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head lang="uk">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+</head>
+<body>
+<div class="bl-background">
+    <div class="bl-bought">
+        <div class="bl-title bl-bought-element"><h3>Залишилося</h3></div>
+        <div class="remained-items bl-bought-element">
+            
+        </div>
+        <div class="bl-title bl-bought-element"><h3>Куплене</h3></div>
+        <div class="bought-items bl-bought-element">
+            
+        </div>
+    </div>
+    <div class="bl-list">
+        <div class="bl-add-container">
+            <div class="bl-add">
+                <input type="text" placeholder="Назва товару" class="title add-buttons inputs">
+                <button class="submit add-buttons inputs" data-tooltip="Додати до списку">Додати</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="badge">
+    <div class="student-name">Buy List</div>
+    <div class="student-info">Created by:<br>Denis Kolomeytsev</div>
+</div>
+<div class="hidden-objects-row">
+	<div class="bl-row">
+        <span class="bl-product" contenteditable>
+        </span>
+        <span class="bl-count">
+            <button class="bl-minus inputs" data-tooltip="Зменшення кулькості товару">-</button>
+            <span class="bl-label">1</span>
+            <button class="bl-plus inputs" data-tooltip="Збільшення кількості товару">+</button>
+        </span>
+        <span class="bl-list-buttons">
+            <div class="bl-list-buttons-block">
+                <button class="buyed inputs" data-tooltip="Купити">Куплено</button>
+                <button class="cancelled inputs" data-tooltip="Видалити товар">X</button>
+            </div>
+            <div class="bl-already-buyed-button">
+                <button class="rebuy inputs" data-tooltip="Відмінити купивлю">Не куплено</button>
+            </div>
+        </span>
+    </div>
+</div>
+<div class="hidden-objects-left">
+    <span class="bl-bought-item"><span class="item-name"></span><span class="bl-item-counter">1</span></span>
+</div>
+<script src="css/jq.js"></script>
+<script src="css/main.js"></script>
+</body>
+</html>
